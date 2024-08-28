@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 
 function Counter() {
@@ -20,8 +21,8 @@ function Counter() {
         <div>
             <h1>Counter</h1>
             <p>Count: {counter}</p>
-            <button onClick={incrementCounter}>Increment</button>
             <button onClick={decrementCounter}>Decrement</button>
+            <button onClick={incrementCounter}>Increment</button>
         </div>
     );
 };
