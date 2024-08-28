@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { demoArrayStudy } from './assets/utils/arrayStudy.js' ;
 import { setupTextChange } from './assets/utils/textChange.js'; 
 import { fetchTodoTitles } from './assets/utils/fetchTodos.js';
+import Greeting from './assets/Greeting.jsx';
 
 import './App.css';
 
@@ -30,7 +31,12 @@ function App() {
           <li key={index}>{title}</li>
         ))}
       </ul>
+
+
+      <Greeting name="Alexis" />
     </div>
+
+    
   );
 }
 
