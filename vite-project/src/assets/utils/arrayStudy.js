@@ -1,6 +1,6 @@
 
 export function getEvenNumbers(numbers) {
-    //simple way to filter out odd numbers
+    //simple way to filter out even numbers
     return numbers.filter(number => number % 2 === 0);
   }
 

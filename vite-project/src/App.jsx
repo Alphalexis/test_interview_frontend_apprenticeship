@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { demoArrayStudy } from './assets/utils/arrayStudy.js' ;
 import { setupTextChange } from './assets/utils/textChange.js'; 
+import {} from './assets/utils/fetchTodos.js';
 
 import './App.css';
 
